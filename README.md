@@ -1,10 +1,7 @@
-# gesture generation
-1. part - gesture recognition
+**2_Text2Gloss_wmt16_finetuned.ipynb:
 
-27.10
-main.ipynb: use the cvzone to detect the hands in pre-recorded video.
-if hands are detected and imgWhite for further training is created.
-
-handCrop.py: the offset size will be adjusted in the future to crop the hands seprately, based on the size. It would be required to reduce the size of the processed image.
+This model is a fine-tuned version of mariav/helsinki-opus-de-en-fine-tuned-wmt16 on Phoenix Weather dataset.
+The purpose if Neural Machine Translation from German text into German Sign Glosses.
+The fine-tuned model can be tested in https://huggingface.co/musralina/helsinki-opus-de-en-fine-tuned-wmt16-finetuned-src-to-trg.
 
 
