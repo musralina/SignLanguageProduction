@@ -1,8 +1,8 @@
-### 1_Text2Gloss_EncDecFromScratch.ipynb:
+### Text2Gloss_EncDecFromScratch.ipynb:
 This file includes two enc-dec architectures from scratch and applied for NMT task from German text into German Sign Glosses.
 
 
-### 2_Text2Gloss_wmt16_finetuned.ipynb:
+### Text2Gloss_wmt16_finetuned.ipynb:
 
 This model is a fine-tuned version of mariav/helsinki-opus-de-en-fine-tuned-wmt16 on Phoenix Weather dataset.
 The purpose is Neural Machine Translation from German text into German Sign Glosses.
