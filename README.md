@@ -11,3 +11,6 @@ The fine-tuned model can be tested in https://huggingface.co/musralina/helsinki-
 
 ### app.py:
 This file includes the code for generation of the Sign Keypoints from the German text. It is generated using the Huggingface fine-tuned model above.
+
+### SLD_online_MNIST.ipynb
+Online recognition of American Signs (24 items). The model is trained on MNIST dataset.
