@@ -32,17 +32,17 @@ for i in range(3):
     print('From the given text the Glosses are as follows: ', decoded)
     input_glosses = decoded.split(' ')
 
-    phoenix_dataset_dev = '/Users/alua/Desktop/PHOENIX-2014-T.dev.corpus.csv'
-    phoenix_dataset_test = '/Users/alua/Desktop/PHOENIX-2014-T.test.corpus.csv'
-    phoenix_dataset_train = '/Users/alua/Desktop/PHOENIX-2014-T.train.corpus.csv'
+    phoenix_dataset_dev = '/path/PHOENIX-2014-T.dev.corpus.csv'
+    phoenix_dataset_test = '/path/PHOENIX-2014-T.test.corpus.csv'
+    phoenix_dataset_train = '/path/PHOENIX-2014-T.train.corpus.csv'
     # Load the Phoenix dataset
     phoenix_dev = pd.read_csv(phoenix_dataset_dev, sep="|")
     phoenix_test = pd.read_csv(phoenix_dataset_test, sep="|")
     phoenix_train = pd.read_csv(phoenix_dataset_train, sep="|")
 
-    dev_img_path = '/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/dev'
-    test_img_path = '/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test'
-    train_img_path = '/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/train'
+    dev_img_path = '/path/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/dev'
+    test_img_path = '/path/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test'
+    train_img_path = '/path/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/train'
 
 
     csv_file = 'img_number.csv'
@@ -142,9 +142,9 @@ for i in range(3):
     # Drawing utilities
     mp_drawing = mp.solutions.drawing_utils 
 
-    path_train = "/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/train/"
-    path_test = "/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/"
-    path_dev = "/Volumes/My Passport for Mac/2_Master2/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/dev/"
+    path_train = "/path/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/train/"
+    path_test = "/path/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/"
+    path_dev = "/path/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/dev/"
 
     csv_file = 'folders.csv'
 
